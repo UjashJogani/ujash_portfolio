@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UjashJogani/ujash_portfolio/static/css/main.18ccdfc2.css",
+    "main.js": "/UjashJogani/ujash_portfolio/static/js/main.7e1ce7fd.js",
+    "static/js/453.bb257cf5.chunk.js": "/UjashJogani/ujash_portfolio/static/js/453.bb257cf5.chunk.js",
+    "static/media/Ujash_Jogani_React_Native_Resume.pdf": "/UjashJogani/ujash_portfolio/static/media/Ujash_Jogani_React_Native_Resume.4e64fb297869d7c5284b.pdf",
+    "index.html": "/UjashJogani/ujash_portfolio/index.html",
+    "main.18ccdfc2.css.map": "/UjashJogani/ujash_portfolio/static/css/main.18ccdfc2.css.map",
+    "main.7e1ce7fd.js.map": "/UjashJogani/ujash_portfolio/static/js/main.7e1ce7fd.js.map",
+    "453.bb257cf5.chunk.js.map": "/UjashJogani/ujash_portfolio/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ccdfc2.css",
+    "static/js/main.7e1ce7fd.js"
+  ]
+}
