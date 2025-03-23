@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: var(--header-bg);
+  color: var(--text-primary);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.nav a {
+  padding-bottom: 4px;
+  margin: 0 10px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+.nav a.active {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 2px;
+}
+
+.theme-toggle {
+  margin-left: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
+/* Theme Variables */
+:root {
+  --header-bg: #ffffff;
+  --text-primary: #1a1a1a;
+  --accent: #4f46e5;
+}
+
+[data-theme='dark'] {
+  --header-bg: #1f2937;
+  --text-primary: #f9fafb;
+  --accent: #60a5fa;
+}

@@ -1,0 +1,65 @@
+.github-container {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.github-content {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.github-content h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+.github-content p {
+  font-size: 1rem;
+  color: var(--subtext-color);
+  margin-bottom: 20px;
+}
+
+.github-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--accent);
+  transition: color 0.3s ease;
+}
+
+.github-link:hover {
+  color: #2563eb;
+}
+
+.github-stats img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Theme Variables */
+:root {
+  --bg-color: #ffffff;
+  --text-primary: #1a1a1a;
+  --subtext-color: #4b5563;
+  --accent: #3b82f6;
+  --heading-color: #111827;
+}
+
+[data-theme='dark'] {
+  --bg-color: #0f172a;
+  --text-primary: #f9fafb;
+  --subtext-color: #9ca3af;
+  --accent: #60a5fa;
+  --heading-color: #facc15;
+}

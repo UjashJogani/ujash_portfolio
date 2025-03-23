@@ -1,0 +1,66 @@
+.projects-container {
+  padding: 40px 20px;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  color: var(--text-primary);
+}
+
+.projects-content {
+  max-width: 900px;
+  width: 100%;
+}
+
+.projects-content h1 {
+  font-size: 2.2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+.project-block {
+  margin-bottom: 30px;
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 3px solid var(--accent);
+  transition: background-color 0.3s ease;
+}
+
+.project-block h2 {
+  color: var(--accent);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.project-block ul {
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.project-block p {
+  margin: 0;
+  color: var(--subtext-color);
+}
+
+/* Theme Variables */
+:root {
+  --bg-color: #ffffff;
+  --text-primary: #1a1a1a;
+  --subtext-color: #4b5563;
+  --heading-color: #111827;
+  --accent: #3b82f6;
+  --card-bg: #f9fafb;
+}
+
+[data-theme='dark'] {
+  --bg-color: #0f172a;
+  --text-primary: #f9fafb;
+  --subtext-color: #9ca3af;
+  --heading-color: #facc15;
+  --accent: #60a5fa;
+  --card-bg: #1e293b;
+}
